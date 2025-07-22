@@ -295,7 +295,7 @@ mutationBtn.Font = Enum.Font.FredokaOne
 mutationBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 mutationBtn.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/PetMutationFinder.txt"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Renasaix/Pet-Mutation-Finder/refs/heads/main/message%20(6).txt"))()
 end)
 
 -- 👤 Credit
