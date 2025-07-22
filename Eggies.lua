@@ -281,7 +281,7 @@ loadAgeBtn.Font = Enum.Font.FredokaOne
 loadAgeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 loadAgeBtn.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShiraInuba01/maomaoscripts/main/Lvl50Egg.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Renasaix/LVL-50/refs/heads/main/GAG.lua"))()
 end)
 
 -- 🛠️ Pet Mutation Finder Button
