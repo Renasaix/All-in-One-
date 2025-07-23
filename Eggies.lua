@@ -21,7 +21,7 @@ local petTable = {
     ["Paradise Egg"] = { "Ostrich", "Peacock", "Capybara" },
     ["Dinosaur Egg"] = { "Raptor", "Triceratops", "Stegosaurus" },
     ["Primal Egg"] = { "Parasaurolophus", "Iguanodon", "Pachycephalosaurus" },
-    ["Zen Egg"] = { "Shiba Inu", "Tanuki", "Kappa" },
+    ["Zen Egg"] = { "Shiba Inu", "Tanuki", "Kappa", "Kitsune" },
 }
 
 local espEnabled = trueS
@@ -240,12 +240,12 @@ autoBtn.TextSize = 16
 autoBtn.Font = Enum.Font.FredokaOne
 autoBtn.TextColor3 = Color3.new(1, 1, 1)
 
-local autoRunning = true
+local autoRunning = false
 local bestPets = {
     ["Raccoon"] = true, ["Dragonfly"] = true, ["Queen Bee"] = true,
     ["Disco Bee"] = true, ["Fennec Fox"] = true, ["Fox"] = true,
     ["Mimic Octopus"] = true, ["T-Rex"] = true, ["Spinosaurus"] = true,
-    ["Kitsune"] = true
+   
 }
 
 autoBtn.MouseButton1Click:Connect(function()
